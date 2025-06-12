@@ -1,0 +1,123 @@
+h1 {
+  text-align: center;
+}
+.main {
+  margin-top: 20vh;
+}
+/* table{
+  box-sizing: border-box;
+
+}
+input[type="button"]{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    border: 1.2px solid red;
+    border-radius: 0px;
+}
+input[type="button"]:hover{
+    background-color: green;
+}
+input[type="text"]{
+    height: 20px;
+    background-color: #fff;
+    color:grey;
+    border: 1.3px solid red;
+    border-radius: 2px;
+} */
+
+.container {
+  box-sizing: border-box;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: rgb(57, 55, 55);
+}
+
+/* result displaying div */
+.result {
+  height: 140px;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input.reslt[type="text"] {
+  top: 71%;
+  border: 0px;
+  width: 200px;
+  height: 25px;
+  outline: none;
+  text-align: right;
+  position: relative;
+  padding-right: 15px;
+  box-sizing: border-box;
+  color: rgb(237, 234, 234);
+  background-color: rgb(57, 55, 55);
+}
+
+input.history[type="text"] {
+  top: 73%;
+  border: 0px;
+  width: 200px;
+  height: 25px;
+  outline: none;
+  text-align: right;
+  position: relative;
+  padding-right: 15px;
+  box-sizing: border-box;
+  color: rgb(237, 234, 234);
+  background-color: rgb(57, 55, 55);
+}
+
+/* numbers and operators */
+
+.keys {
+  height: 160;
+  padding-left: 15px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  background-color: rgb(57, 55, 55);
+  border-radius: 5px;
+}
+
+/* CSS */
+
+/* input[type="button"]:hover{
+    background-color: green;
+    border-radius: 3px;
+} */
+
+input[type="button"] {
+  width: 30px;
+  height: 30px;
+  margin: 0%;
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: rgb(57, 55, 55);
+}
+td {
+  width: 50px;
+  height: 32px;
+  border: 0;
+  box-sizing: border-box;
+}
+
+input.operator[type="button"] {
+  color: chocolate;
+}
+input.equal[type="button"] {
+  color: white;
+  width: 30px;
+  height: 30px;
+  background-color: chocolate;
+  border-radius: 50%;
+}
+
+/*-----> input box2  (previous output box)<-------*/
+
+.input2 {
+  color: rgb(91, 83, 83);
+  opacity: 0.3;
+}
